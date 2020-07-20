@@ -462,6 +462,7 @@ header.sticky {
 
 .about {
   height: 400px;
+  margin-top: 150px;
   background-image: -webkit-gradient(linear, left top, right top, from(#a140ce), to(#c76ff0));
   background-image: linear-gradient(to right, #a140ce, #c76ff0);
   width: 100%;
