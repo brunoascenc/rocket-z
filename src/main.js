@@ -72,7 +72,9 @@ sections.forEach(section => {
 
 //Smooth Scroll
 const scroll = new SmoothScroll('[href*="#"]', {
-  speed: 600
+  speed: 600,
+  offset: 70,
+  header: '[data-scroll-header]'
 });
 
 
